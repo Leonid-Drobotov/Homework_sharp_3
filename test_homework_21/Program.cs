@@ -1,7 +1,7 @@
 ﻿double Distance_3D(int XA, int YA, int ZA, int XB, int YB, int ZB)
 {
 double distance = Math.Sqrt(Math.Pow(XB - XA,2)+Math.Pow(YB - YA,2)+Math.Pow(ZB - ZA,2));
-return distance;
+return Math.Round(distance,2);
 }
 
 int GetInfo(string message)
